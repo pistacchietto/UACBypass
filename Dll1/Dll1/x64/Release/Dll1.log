@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  Dll1.cpp
+  dllmain.cpp
+     Creating library c:\Users\francesco\documents\visual studio 2017\Projects\Dll1\x64\Release\Dll1.lib and object c:\Users\francesco\documents\visual studio 2017\Projects\Dll1\x64\Release\Dll1.exp
+  Generating code
+  All 148 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Dll1.vcxproj -> c:\Users\francesco\documents\visual studio 2017\Projects\Dll1\x64\Release\Dll1.dll
