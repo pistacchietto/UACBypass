@@ -1,8 +1,10 @@
 ﻿  stdafx.cpp
   Dll1.cpp
   dllmain.cpp
-     Creating library c:\Users\francesco\documents\visual studio 2017\Projects\Dll1\x64\Release\Dll1.lib and object c:\Users\francesco\documents\visual studio 2017\Projects\Dll1\x64\Release\Dll1.exp
+     Creating library C:\Users\Francesco\Documents\GitHub\UACBypass\Dll1\x64\Release\Dll1.lib and object C:\Users\Francesco\Documents\GitHub\UACBypass\Dll1\x64\Release\Dll1.exp
   Generating code
-  All 148 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  143 of 148 functions (96.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Dll1.vcxproj -> c:\Users\francesco\documents\visual studio 2017\Projects\Dll1\x64\Release\Dll1.dll
+  Dll1.vcxproj -> C:\Users\Francesco\Documents\GitHub\UACBypass\Dll1\x64\Release\Dll1.dll
