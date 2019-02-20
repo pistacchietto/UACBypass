@@ -35,6 +35,7 @@ int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, char*, int nShowCmd)
 	se.hwnd = NULL;
 	se.lpDirectory = NULL;
 	ShellExecuteEx(&se);
+	//WinExec("c:\\windows\\temp\\win.bat", SW_HIDE);
 
     	return 0;
 }
